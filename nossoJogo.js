@@ -25,8 +25,8 @@
           let pontosUsuario = cartaUsuario1.valor + cartaUsuario2.valor
           let pontosComputador = cartaComputador1.valor + cartaComputador2.valor
     
-      console.log(`Usuário - Cartas:${cartaUsuario1.texto} ${cartaUsuario2.texto} - Pontuação: ${pontosUsuario}`)
-          console.log(`Computador - Cartas: ${cartaComputador1.texto} ${cartaComputador2.texto} - Pontuação: ${pontosComputador}`)
+      console.log( `Usuário - Cartas:${cartaUsuario1.texto} ${cartaUsuario2.texto} - Pontuação: ${pontosUsuario}`)
+          console.log( `Computador - Cartas: ${cartaComputador1.texto} ${cartaComputador2.texto} - Pontuação: ${pontosComputador}`)
            if (pontosUsuario > pontosComputador){
       console.log(" O usuário ganhou!");
    }else if (pontosComputador > pontosUsuario){
@@ -36,7 +36,7 @@
    }
        }
        else {
-          console.log("O jogo acabou, caso queira iniciar um novo jogo, recarregue a página!")
+          console.log(" O jogo acabou, recarregue a página para um novo jogo")
        }
     }
     jogoDeCartas()
